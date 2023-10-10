@@ -13,7 +13,7 @@ body {
 }
 /* Encabezado */
 header {
-    background-image: url("https://scontent.fnqn4-1.fna.fbcdn.net/v/t39.30808-6/391513995_7034736366617724_7974397963515171470_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeFBiokBTWvp-WZ3ZdUACWeZ6WV84TwlXHbpZXzhPCVcdsonJoe7sAs1ZIq4WcLpR2SC-XGUraQoHkEWzPQok_Y1&_nc_ohc=qMXGnE9L6igAX8Cqea8&_nc_ht=scontent.fnqn4-1.fna&oh=00_AfBV9W-RXKzY9IH0jvaJ1Fbe0evGKOEjKgl7xdcI3TlDQQ&oe=652A8797");
+    background-image: url("Imagenes/VaquitaBebe.png");
     background-repeat: no-repeat;
     background-size: cover; /* Ajustar la imagen al tamaño del elemento */
     background-position: center ; /* Centrar la imagen en la parte superior */
@@ -21,6 +21,7 @@ header {
     text-align: center;
     padding: 10rem 0;
 }
+
 
 /* Navegación */
 nav ul {
