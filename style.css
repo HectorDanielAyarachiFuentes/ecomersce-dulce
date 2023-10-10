@@ -1,28 +1,35 @@
 /* Estilos generales */
-body, h1, h2, p {
+body,
+h1,
+h2,
+p {
     margin: 0;
     padding: 0;
 }
 body {
     margin: 5px;
     font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Evita el scroll horizontal */
-    background-image: url("Imagenes/Dulcesonrie.jpg"); /* Ruta relativa a la ubicación del archivo CSS */
-    background-size: cover; /* Ajustar la imagen al tamaño del body */
-    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    overflow-x: hidden;
+    /* Evita el scroll horizontal */
+    background-image: url("Imagenes/Dulcesonrie.jpg");
+    /* Ruta relativa a la ubicación del archivo CSS */
+    background-size: cover;
+    /* Ajustar la imagen al tamaño del body */
+    background-repeat: no-repeat;
+    /* Evitar la repetición de la imagen */
 }
 /* Encabezado */
 header {
     background-image: url("Imagenes/VaquitaBebe1.jpg");
     background-repeat: no-repeat;
-    background-size: cover; /* Ajustar la imagen al tamaño del elemento */
-    background-position: center ; /* Centrar la imagen en la parte superior */
+    background-size: cover;
+    /* Ajustar la imagen al tamaño del elemento */
+    background-position: center;
+    /* Centrar la imagen en la parte superior */
     color: #fff;
     text-align: center;
     padding: 10rem 0;
 }
-
-
 /* Navegación */
 nav ul {
     list-style: none;
@@ -44,13 +51,15 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-right: 290px; /* Deja espacio para el carrito en el lado derecho */
+    margin-right: 290px;
+    /* Deja espacio para el carrito en el lado derecho */
 }
 .product {
     border: 1px solid #ddd;
     padding: 1rem;
     text-align: center;
-    margin: 1rem 0.5rem; /* Espacio uniforme entre los productos */
+    margin: 1rem 0.5rem;
+    /* Espacio uniforme entre los productos */
 }
 .product img {
     max-width: 100%;
@@ -69,13 +78,15 @@ footer {
     width: 250px;
     position: fixed;
     top: 100px;
-    right: 10px; /* Margen derecho de 10px */
+    right: 10px;
+    /* Margen derecho de 10px */
     background-color: #f9f9f9;
     overflow-y: auto;
     max-height: 400px;
-    z-index: 1; /* Asegura que .cart esté sobre los productos */
-    margin: 5px; /* Margen para todas las resoluciones */
- 
+    z-index: 1;
+    /* Asegura que .cart esté sobre los productos */
+    margin: 5px;
+    /* Margen para todas las resoluciones */
 }
 .cart h2 {
     margin-bottom: 1rem;
@@ -110,58 +121,70 @@ footer {
 /* Estilos para pantallas de hasta 760px (tablets) */
 @media screen and (max-width: 760px) {
     header {
-        position: static; /* Evita que el header esté fijo en pantallas pequeñas */
+        position: static;
+        /* Evita que el header esté fijo en pantallas pequeñas */
     }
     .cart {
-        position: relative; /* Vuelve a la posición normal en pantallas pequeñas */
+        position: relative;
+        /* Vuelve a la posición normal en pantallas pequeñas */
         top: auto;
         right: auto;
-        width:auto; /* Ocupa todo el ancho disponible */
-        margin-top: 20px; /* Agrega un margen superior para separar la tarjeta del header */
-        margin: 5px; /* Margen para pantallas pequeñas */
+        width: auto;
+        /* Ocupa todo el ancho disponible */
+        margin-top: 20px;
+        /* Agrega un margen superior para separar la tarjeta del header */
+        margin: 5px;
+        /* Margen para pantallas pequeñas */
     }
     .products {
-        margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+        margin-right: 0;
+        /* Elimina el margen derecho en pantallas pequeñas */
     }
     .product {
-        margin: 1rem; /* Espacio uniforme entre los productos en pantallas pequeñas */
+        margin: 1rem;
+        /* Espacio uniforme entre los productos en pantallas pequeñas */
     }
 }
 /* Estilos para pantallas de hasta 320px */
 @media screen and (max-width: 320px) {
     .cart {
         position: relative;
-        width:auto;
+        width: auto;
     }
 }
-
-
 /* Estilos para los botones de compra con temática de perros */
 .add-to-cart {
-    background-color: #F4A460; /* Color relacionado con perros */
-    color: white; /* Texto en color blanco para mayor contraste */
-    padding: 10px 20px; /* Espaciado interno para el botón */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Esquinas redondeadas */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    font-size: 16px; /* Tamaño de fuente */
-    font-weight: bold; /* Texto en negrita */
-    margin:20px;
-  }
-  
-  .add-to-cart:hover {
-    background-color: #FFA500; /* Cambia el color de fondo al pasar el cursor */
-  }
-  
-  /* Estilos adicionales para resaltar la temática de perros */
-  .add-to-cart::before {
-    content: "🐶 "; /* Agrega un emoji de perro antes del texto del botón */
-  }
-  
-  /* Estilos para centrar el emoji junto al texto */
-  .add-to-cart::before {
+    background-color: #F4A460;
+    /* Color relacionado con perros */
+    color: white;
+    /* Texto en color blanco para mayor contraste */
+    padding: 10px 20px;
+    /* Espaciado interno para el botón */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    font-weight: bold;
+    /* Texto en negrita */
+    margin: 20px;
+}
+.add-to-cart:hover {
+    background-color: #FFA500;
+    /* Cambia el color de fondo al pasar el cursor */
+}
+/* Estilos adicionales para resaltar la temática de perros */
+.add-to-cart::before {
+    content: "🐶 ";
+    /* Agrega un emoji de perro antes del texto del botón */
+}
+/* Estilos para centrar el emoji junto al texto */
+.add-to-cart::before {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px; /* Espacio entre el emoji y el texto */
-  }
-  
+    margin-right: 5px;
+    /* Espacio entre el emoji y el texto */
+}

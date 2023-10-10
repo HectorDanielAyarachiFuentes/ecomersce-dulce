@@ -1,6 +1,5 @@
 1) Cargar archivos de imágenes
 Descargar todos los archivos de imágenes en el directorio de tu dominio
-
 2) Insertar códigos HTML
 Pega tu código HTML ente las dos etiquetas <head></head>:
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
