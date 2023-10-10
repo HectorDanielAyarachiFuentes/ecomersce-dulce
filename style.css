@@ -134,3 +134,34 @@ footer {
         width:auto;
     }
 }
+
+
+/* Estilos para los botones de compra con temática de perros */
+.add-to-cart {
+    background-color: #F4A460; /* Color relacionado con perros */
+    color: white; /* Texto en color blanco para mayor contraste */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    margin:20px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #FFA500; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
+  /* Estilos adicionales para resaltar la temática de perros */
+  .add-to-cart::before {
+    content: "🐶 "; /* Agrega un emoji de perro antes del texto del botón */
+  }
+  
+  /* Estilos para centrar el emoji junto al texto */
+  .add-to-cart::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Espacio entre el emoji y el texto */
+  }
+  
